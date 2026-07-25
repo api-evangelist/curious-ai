@@ -1,22 +1,67 @@
 aid: curious-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/curious-ai.png
 name: Curious Ai
-description: Curious Ai is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  The Curious AI Company was a Helsinki, Finland-based artificial intelligence
+  research company founded in 2015 by Harri Valpola (previously founder of
+  ZenRobotics) along with Antti Rasmus, Mathias Berglund, Tapani Raiko, and
+  Timo Haanpaa. The company pursued artificial general intelligence, real-world
+  computer vision for robots, and interactive, autonomous, and semi-supervised
+  machine learning, and is best known for foundational research on Ladder
+  Networks for semi-supervised deep learning. It raised roughly 4.7M USD from
+  investors including DCVC, Lifeline Ventures, and Invus, and was acquired by
+  Apple in January 2021. The company no longer operates as an independent entity
+  and publishes no public developer platform, API, documentation, or SDKs. This
+  record is retained as a DCVC portfolio identity profile; there is no active
+  API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/curious-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - dcvc
+- lifeline-ventures
+- invus
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-api-surface
+x-status: acquired
+x-acquired-by: Apple
+x-acquired-date: '2021-01-15'
+x-headquarters: Helsinki, Finland
+x-founded: '2015'
+x-linkedin: https://www.linkedin.com/company/the-curious-ai-company
+x-reference: https://www.dcvc.com/companies/curious-ai/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Computer Vision
+- Robotics
+- Deep Learning
+- Semi-Supervised Learning
+- Artificial General Intelligence
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
