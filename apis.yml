@@ -58,8 +58,8 @@ modified: '2026-07-18'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
-- Computer-Vision
+- Machine Learning
+- Computer Vision
 - Robotics
 - Deep Learning
 - Semi-Supervised Learning
@@ -75,6 +75,8 @@ tags_raw:
 - Semi-Supervised Learning
 - Artificial General Intelligence
 - Acquired
+- Machine-Learning
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
